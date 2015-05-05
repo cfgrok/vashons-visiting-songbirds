@@ -15,7 +15,7 @@
 
 			.reveal .slides {
 				height: 100% !important;
-				top: 10% !important;
+				top: 5% !important;
 				margin-top: 0 !important;
 			}
 			.reveal .slides>section {
@@ -26,22 +26,29 @@
 				min-height: 100% !important;
 				top: auto !important;
 			}
-
-			/*.slides {
-				height: 700px;
-				width: 960px;
-			}*/
 			.reveal .slides p {
+				margin-top: 30px;
 				text-align: left;
 			}
 			.reveal .slides .center p {
+				margin-top: 0;
 				text-align: center;
+			}
+			.reveal .slides .w-5 p {
+				margin-bottom: 20px;
+				margin-top: 0;
+			}
+			.reveal .slides .w-5 p.purple {
+				margin-bottom: 0;
 			}
 			section {
 				height: auto;
 				left: 0px;
 				top: 0px;
 				width: 960px;
+			}
+			.reveal h1 {
+				margin-top: 15%;
 			}
 			.aqua {
 				color: #40E0D0;
@@ -55,6 +62,58 @@
 			p.purple {
 				font-style: normal !important;
 				font-weight: normal !important;
+			}
+			.reveal img {
+				margin-top: 20px;
+			}
+			.column {
+				float: left;
+				width: 50%;
+			}
+
+			#psfl-nest-1 {
+				position: absolute;
+				left: 80px;
+				top: 80px;
+			}
+			#psfl-nest-2 {
+				position: absolute;
+				left: 400px;
+				top: 261px;
+				z-index: 10;
+			}
+			#puma-flight-1 {
+				position: absolute;
+				left: 48px;
+				top: 55px;
+			}
+			#puma-flight-2 {
+				position: absolute;
+				left: 398px;
+				top: 280px;
+				z-index: 10;
+			}
+			#puma-nest-1 {
+				position: absolute;
+				left: 48px;
+				top: 95px;
+				z-index: 10;
+			}
+			#puma-nest-2 {
+				position: absolute;
+				left: 398px;
+				top: 242px;
+			}
+			#vgsw-flight-1 {
+				position: absolute;
+				left: 280px;
+				top: 100px;
+			}
+			#vgsw-flight-2 {
+				position: absolute;
+				left: 29px;
+				top: 100px;
+				z-index: 10;
 			}
 		</style>
 	</head>
@@ -92,7 +151,7 @@
 </section>
 
 <section>
-	
+
 <section>
 	<img width="700" height="500" src="2015-05-05-v1/WETA_male.jpg">
 	<h4>easy!</h4>
@@ -117,7 +176,7 @@
 	<p class="purple">why is it <u><em>not</em></u> the most abundant, common species?</p>
 </section>
 
-<section>
+<section class="w-5">
 	<p class="purple"><span class="aqua">Who?</span> which type of bird?</p>
 	<p>uncertain</p>
 	<p class="purple"><span class="aqua">What?</span> behavior / feeding method / song?</p>
@@ -147,7 +206,7 @@
 		<li>almost always hovers while feeding</li>
 		<li>very long bill &amp; tongue for specialized feeding of nectar at flowers; also feeders, sap from sapsucker wells &amp; tiny insects</li>
 		<li>iridescent plumage</li>
-		<li>very small legs & feet (Apodiformes); used for scratching or perching, not walking</li>
+		<li>very small legs &amp; feet (Apodiformes); used for scratching or perching, not walking</li>
 		<li>2 species recorded on Vashon (Anna's is resident)</li>
 	</ul>
 </section>
@@ -163,7 +222,7 @@
 <section>
 	<h3>Rufous Hummingbird</h3>
 	<ul>
-		<li>orange-red gorget (throat) & rufous plumage</li>
+		<li>orange-red gorget (throat) &amp; rufous plumage</li>
 		<li>male performs courtship display for female; his wing feathers are modified to produce a trill or buzz</li>
 		<li>wide range of suitable habitats</li>
 		<li>
@@ -229,7 +288,7 @@
 		<li>many have a slightly crested appearance</li>
 		<li>typically exhibit an upright posture</li>
 		<li>look for behaviors such as persistent wing-flicking and/or tail pumping (bobbing) </li>
-		<li>wide, flattened bill for insect catching & well-developed rictal bristles</li>
+		<li>wide, flattened bill for insect catching &amp; well-developed rictal bristles</li>
 		<li>diet is almost exclusively insectivorous (highly unlikely at feeders)</li>
 		<li>NA species usually employ a "sallying" feeding method -- fly up directly to catch an insect from perch, then return to same perch</li>
 		<li>7 species recorded on Vashon (all migrants)</li>
@@ -463,8 +522,8 @@
 
 <section>
 	<h3>Pacific-slope Flycatcher</h3>
-	<img width="494" height="395" src="2015-05-05-v1/1336029-PSFL_nest.jpg">
-	<img width="494" height="395" src="2015-05-05-v1/1336031-PSFL_nest1.jpg">
+	<img id="psfl-nest-1" width="494" height="395" src="2015-05-05-v1/1336029-PSFL_nest.jpg">
+	<img id="psfl-nest-2" width="494" height="395" src="2015-05-05-v1/1336031-PSFL_nest1.jpg">
 
 </section>
 
@@ -513,7 +572,7 @@
 	<h3>Warbling Vireo</h3>
 	<ul>
 		<li>can be inconspicous and hard to locate; much easier to learn its song</li>
-		<li>pale lores & supercillium (eyebrow) are only notable markings</li>
+		<li>pale lores &amp; supercillium (eyebrow) are only notable markings</li>
 		<li>distinguished from Ruby-crowned Kinglet, Hutton's &amp; Cassin's Vireo by lack of wingbars</li>
 		<li>habitats include bushy, deciduous growth, often in riparian settings</li>
 		<li>nest often hosts Brown-headed Cowbird eggs</li>
@@ -560,14 +619,14 @@
 	<h3>(Swallows)</h3>
 	<ul>
 		<li>small bill with wide, gaping mouth</li>
-		<li>stream-lined bodies & long, pointed wings</li>
+		<li>stream-lined bodies &amp; long, pointed wings</li>
 		<li>aerial insectivores -- feed by swooping and coursing over any fairly open area where insects are abundant</li>
 		<ul>
-			<li>on Vashon, that includes areas around the docks, ponds, beaches, open meadows & fields</li>
+			<li>on Vashon, that includes areas around the docks, ponds, beaches, open meadows &amp; fields</li>
 		</ul>
 		</li>
 		<li>most species are somewhat to strongly colonial in nesting strategy; enclosed nests (mud, burrows, nest boxes, crevices)</li>
-		<li>prolonged, adverse weather events can be fatal for young & immature</li>
+		<li>prolonged, adverse weather events can be fatal for young &amp; immature</li>
 		<li>6 species recorded on Vashon (all migrants)</li>
 	</ul>
 </section>
@@ -583,7 +642,7 @@
 <section>
 	<h3>Purple Martin</h3>
 	<ul>
-		<li>as recently as the 1980s, not easily found in WA state (possible reasons include: adverse weather events, lack of historical nesting site & competition from introduced cavity nesters)</li>
+		<li>as recently as the 1980s, not easily found in WA state (possible reasons include: adverse weather events, lack of historical nesting site &amp; competition from introduced cavity nesters)</li>
 		<li>in the 1990s, Rich Siegrist installed nest boxes on pilings in several Island locations</li>
 		<li>largest swallow; solid bluish or purplish coloration in males</li>
 		<li>earliest arrivals from South America in early April</li>
@@ -621,14 +680,14 @@
 
 <section>
 	<h3>Purple Martin</h3>
-	<img width="500" height="340" src="2015-05-05-v1/1317370-PUMA4.jpg">
-	<img width="500" height="340" src="2015-05-05-v1/EUST.jpg">
+	<img id="puma-flight-1" width="500" height="340" src="2015-05-05-v1/1317370-PUMA4.jpg">
+	<img id="puma-flight-2" width="500" height="340" src="2015-05-05-v1/EUST.jpg">
 </section>
 
 <section>
 	<h3>Purple Martin</h3>
-	<img width="500" height="340" src="2015-05-05-v1/1317369-PUMA3.jpg">
-	<img width="500" height="340" src="2015-05-05-v1/1317368-PUMA2.jpg">
+	<img id="puma-nest-1" width="500" height="340" src="2015-05-05-v1/1317369-PUMA3.jpg">
+	<img id="puma-nest-2" width="500" height="340" src="2015-05-05-v1/1317368-PUMA2.jpg">
 </section>
 
 </section>
@@ -647,7 +706,7 @@
 		<li>nests are made of mud pellets and some fibrous material</li>
 		<li>orginally nested in caves, but by mid-20th century, there was a near complete shift to using man-made structures (eaves, bridges, docks, etc.)</li>
 			<ul>
-				<li>require nearby insects & mud source, a suitable man-made structure, as well as humans that are amenable to nesting</li>
+				<li>require nearby insects &amp; mud source, a suitable man-made structure, as well as humans that are amenable to nesting</li>
 			</ul>
 		</li>
 		<li>earliest arrivals from Central or South America in early April</li>
@@ -674,7 +733,7 @@
 <section>
 	<h3>Barn Swallow</h3>
 	<img width="700" height="530" src="2015-05-05-v1/1317355-BASW3.jpg">
-	<h4>female & male</h4>
+	<h4>female &amp; male</h4>
 </section>
 
 <section>
@@ -745,8 +804,8 @@
 
 <section>
 	<h3>Violet-green Swallow</h3>
-	<img width="656" height="490" src="2015-05-05-v1/1317374-VGSW1.jpg">
-	<img width="324" height="490" src="2015-05-05-v1/1317377-VGSW2.png">
+	<img id="vgsw-flight-1" width="656" height="490" src="2015-05-05-v1/1317374-VGSW1.jpg">
+	<img id="vgsw-flight-2" width="324" height="490" src="2015-05-05-v1/1317377-VGSW2.png">
 </section>
 
 <section>
@@ -767,7 +826,7 @@
 	<ul>
 		<li>family includes such iconic species as American Robin &amp; Western Bluebird</li>
 		<li>???</li>
-		<li>7 species recorded on Vashon (Varied Thrush & American Robin are resident)</li>
+		<li>7 species recorded on Vashon (Varied Thrush &amp; American Robin are resident)</li>
 	</ul>
 </section>
 
